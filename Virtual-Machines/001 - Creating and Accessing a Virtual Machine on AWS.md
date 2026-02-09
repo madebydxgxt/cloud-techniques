@@ -50,7 +50,7 @@ This SOP outlines the steps to create and connect to a virtual machine in AWS, e
 
 
 
-- Go to the side of the room and log in using your email.
+- Log in using your email.
 - Wait for the dashboard to load.
 - Click on 'Launch Instances' to start creating a new virtual machine.
 
