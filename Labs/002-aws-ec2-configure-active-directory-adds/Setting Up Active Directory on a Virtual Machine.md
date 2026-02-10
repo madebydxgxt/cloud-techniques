@@ -38,14 +38,14 @@ Stand up a simple Active Directory domain on a Windows Server VM and validate it
 ## Steps Performed
 **1. Access Server Manager** [0:01](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=1)
 
-![generated-image-at-00:00:01](https://loom.com/i/94d8dbda53a345efabfedab8707512f8?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/1.jpg?raw=true)
 
 - Open the Server Manager on your virtual machine.
 - Look for the option to add roles and features.
 
 **2. Add Active Directory Domain Services** [0:11](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=11)
 
-![generated-image-at-00:00:11](https://loom.com/i/5ace531cd36e457fbba74055017a09a8?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/2.jpg?raw=true)
 
 - Click 'Next' through the initial prompts.
 - Select 'Active Directory Domain Services' and click 'Add Features'.
@@ -53,7 +53,7 @@ Stand up a simple Active Directory domain on a Windows Server VM and validate it
 
 **3. Promote Server to Domain Controller** [1:08](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=68)
 
-![generated-image-at-00:01:08](https://loom.com/i/8b85abda134b467fa384e0d1977ec016?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/3.jpg?raw=true)
 
 - After installation, promote the server to a domain controller.
 - Choose a domain name (e.g., 'school.local').
@@ -61,21 +61,21 @@ Stand up a simple Active Directory domain on a Windows Server VM and validate it
 
 **4. Complete Installation** [2:21](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=141)
 
-![generated-image-at-00:02:21](https://loom.com/i/c3f1859d7b4544e5966bf62363e797b5?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/4.jpg?raw=true)
 
 - Click 'Install' to begin the installation process.
 - The server will log you out; log back in using the credentials you set.
 
 **5. Access Active Directory Users and Computers** [3:52](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=232)
 
-![generated-image-at-00:03:52](https://loom.com/i/7001cc1e6ee740328b01c38da513e441?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/5.jpg?raw=true)
 
 - After logging back in, search for 'Active Directory Users and Computers'.
 - Open the application to manage users and groups.
 
 **6. Create a New User** [4:48](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=288)
 
-![generated-image-at-00:04:48](https://loom.com/i/ef89d4a184a741feabfcd847e4243c11?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/6.jpg?raw=true)
 
 - Right-click on the desired organizational unit (OU) or domain.
 - Select 'New' &gt; 'User'.
@@ -84,7 +84,7 @@ Stand up a simple Active Directory domain on a Windows Server VM and validate it
 
 **7. Create Organizational Units (Optional)** [6:01](https://loom.com/share/3edd30f8c1a948e2b4d482b8c217c1c4?t=361)
 
-![generated-image-at-00:06:01](https://loom.com/i/c07f592fffa743d2b1451878dffd78a6?workflows_screenshot=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/002-aws-ec2-configure-active-directory-adds/artifacts/7.jpg?raw=true)
 
 - Consider creating OUs for different departments (e.g., HR, Finance).
 - This helps manage users with different account settings.
