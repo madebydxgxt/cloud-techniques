@@ -1,4 +1,4 @@
-# AWS EC2 Windows VM Lab (RDP Access)
+# How To Create A Virtual Machine In AWS
 
 A beginner-friendly lab that walks through launching a Windows virtual machine in AWS and connecting to it securely via Remote Desktop (RDP).
 
