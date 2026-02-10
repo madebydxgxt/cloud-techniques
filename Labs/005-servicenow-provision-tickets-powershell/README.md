@@ -46,39 +46,39 @@ This SOP outlines the steps to provision tickets into ServiceNow using a PowerSh
 
 **1. Prepare Your Environment** [0:02](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=2)
 
-![image alt](
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/1.jpg?raw=true)
 
 - Open your PowerShell terminal.
 - Ensure you have access to your ServiceNow developer instance.
 
 **2. Copy the PowerShell Script** [0:26](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=26)
 
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/2.jpg?raw=true)
 
 - Copy the provided PowerShell script.
 - Make sure to replace the placeholder values with your actual developer instance, username, and password.
 
 **3. Paste the Script in PowerShell** [1:04](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=64)
 
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/3.jpg?raw=true)
 
 - Paste the modified script into your PowerShell terminal.
 
 **4. Execute the Script** [1:12](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=72)
 
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/4.jpg?raw=true)
 
 - Run the script to push the data to ServiceNow.
 
 **5. Retrieve Task Effective Number** [1:23](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=83)
 
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/5.jpg?raw=true)
 
 - After execution, note the task effective number from the output.
 
 **6. Search for the Incident in ServiceNow** [2:00](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=120)
 
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/6.jpg?raw=true)
 
 - Log into your ServiceNow instance.
 - Navigate to the incidents section.
@@ -86,7 +86,7 @@ This SOP outlines the steps to provision tickets into ServiceNow using a PowerSh
 
 **7. Verify the Incident** [2:26](https://loom.com/share/a401750e284d407690e7d73426b871dc?t=146)
 
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/005-servicenow-provision-tickets-powershell/artifacts/7.jpg?raw=true)
 
 - Confirm that the incident appears in the search results.
 
