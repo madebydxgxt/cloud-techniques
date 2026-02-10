@@ -55,7 +55,7 @@ This SOP outlines the steps to create and connect to a virtual machine in AWS, e
 
 
 **Step 2: Configure the Virtual Machine** [0:30](https://loom.com/share/9a034b9d77f143d18157d71631305b02?t=30)
-![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/2.jpg?raw=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/3.jpg?raw=true)
 - Click on 'Launch Instances' to start creating a new virtual machine.
 - Name your server (e.g., 'my server').
 - Select the type of virtual machine (choose Windows).
@@ -71,19 +71,19 @@ This SOP outlines the steps to create and connect to a virtual machine in AWS, e
 
 
 **Step 4: Configure Network Settings** [2:20](https://loom.com/share/9a034b9d77f143d18157d71631305b02?t=140)
-![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/4.jpg?raw=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/3.jpg?raw=true)
 
 - Keep the default network settings.
 - Click 'Launch Instance'.
 
 **Step 5: Monitor Instance Initialization** [3:10](https://loom.com/share/9a034b9d77f143d18157d71631305b02?t=190)
-![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/5.jpg?raw=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/3.jpg?raw=true)
 
 - Wait for the instance to initialize.
 - Check that all status checks pass.
 
 **Step 6: Start the Instance** [3:50](https://loom.com/share/9a034b9d77f143d18157d71631305b02?t=230)
-![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/6.jpg?raw=true)
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Virtual-Machines/001/3.jpg?raw=true)
 
 - Select your instance.
 - Click on 'Instance State' and then 'Start Instance'.
