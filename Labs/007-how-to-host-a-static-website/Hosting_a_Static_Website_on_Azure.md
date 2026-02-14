@@ -53,7 +53,7 @@ This SOP outlines the steps to host a static website using Azure's Blob Storage 
 - Select 'Storage account' to create a new storage account.
 
 **Step 2: Configure Storage Account** [0:40](https://loom.com/share/95c44fe345c64003a5e720a0336ec0ba?t=40)
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/007-how-to-host-a-static-website/artifacts/2.jpg?raw=true)
 
 - Name your storage account (ensure it is unique).
 - Select the region closest to your location (e.g., East Coast).
@@ -61,34 +61,34 @@ This SOP outlines the steps to host a static website using Azure's Blob Storage 
 - Leave all other settings as default and click 'Review + create'.
 
 **Step 3: Create the Storage Account** [1:41](https://loom.com/share/95c44fe345c64003a5e720a0336ec0ba?t=101)
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/007-how-to-host-a-static-website/artifacts/3.jpg?raw=true)
 
 - Click 'Create' to deploy the storage account.
 - Wait for the deployment to complete.
 
 **Step 4: Enable Static Website Hosting** [2:30](https://loom.com/share/95c44fe345c64003a5e720a0336ec0ba?t=150)
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/007-how-to-host-a-static-website/artifacts/5.jpg?raw=true)
 
 - Go to 'Data Management' in your storage account.
 - Select 'Static Website'.
 - Enable static website hosting.
 
 **Step 5: Configure Index and Error Documents** [3:00](https://loom.com/share/95c44fe345c64003a5e720a0336ec0ba?t=180)
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/007-how-to-host-a-static-website/artifacts/5.jpg?raw=true)
 
 - Set the index document name to 'index.html'.
 - Set the error document name to '404.html'.
 - Click 'Save'.
 
 **Step 6: Upload Website Files** [4:40](https://loom.com/share/95c44fe345c64003a5e720a0336ec0ba?t=280)
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/007-how-to-host-a-static-website/artifacts/6.jpg?raw=true)
 
 - Go to 'Blob service' in your storage account.
 - Click on 'Web' to access the web container.
 - Click 'Upload' to upload your HTML files.
 
 **Step 7: Access Your Website** [7:04](https://loom.com/share/95c44fe345c64003a5e720a0336ec0ba?t=424)
-
+![image alt](https://github.com/madebydxgxt/Cloud-Techniques/blob/main/Labs/007-how-to-host-a-static-website/artifacts/7.jpg?raw=true)
 
 - Copy the primary endpoint URL from the 'Static Website' section.
 - Paste the URL into your web browser to access your static website.
